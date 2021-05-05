@@ -1,0 +1,179 @@
+header {
+    background: #fcae41;
+}
+
+footer {
+    background: #65c3d0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #5b5b5b;
+}
+
+
+/*
+light-blue   #ccf1f5
+blue         -#81d8e3 #66c3d0 links
+dark-orange  #ed4f00
+orange       #eb7835
+light-orange #fcae41
+
+#fff
+#ccf1f5
+#dadada border
+#95989a
+#746e70
+#5b5b5b text color
+*/
+
+.main-cart .cart-title {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.main-cart .main-cart-block {
+    /* height: 1800px; */
+}
+
+
+/* product */
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item {
+    margin-bottom: 15px;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .delete-btn {
+    color: #A5A5A5;
+    font-size: .75rem;
+    width: auto;
+    white-space: nowrap;
+    padding-left: 0;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-photo {}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-photo img {
+    display: block;
+    border: 1px solid #dadada;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-name {
+    font-size: 1rem;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-articul {
+    color: #939393;
+    font-size: 1rem;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-quantity-block {
+    display: flex;
+    align-items: center;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-quantity-block .quantity {
+    font-size: 1.25rem;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-quantity-block .quantity:focus {
+    outline: none;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-quantity-block .quantity-minus {
+    width: 17px;
+    height: 17px;
+    border: none;
+    background: url(../img/minus.svg) no-repeat center center;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-quantity-block .quantity-plus {
+    width: 17px;
+    height: 17px;
+    border: none;
+    background: url(../img/plus.svg) no-repeat center center;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-price-block {
+    text-align: right;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-price-block .price {
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-price-block .price-discount {
+    color: #A5A5A5;
+    font-size: 1rem;
+    text-decoration: line-through;
+    white-space: nowrap;
+}
+
+.main-cart .main-cart-block .cart-product-block .cart-product-item .product-price-block .price-points {
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+
+/* contacts */
+
+.cart-contacts-block .nav .btn {
+    color: #939393;
+    font-size: 1rem;
+    padding: 20px 50px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    /* box-shadow: 0px 4px 15px 0px #0000001A; */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cart-contacts-block .nav .btn.active {
+    color: #5B5B5B;
+    border: 2px solid #66C3D0;
+}
+
+
+/* delivery */
+
+.delivery-block .form-check-label {
+    display: flex;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+}
+
+.delivery-block .form-check-label:hover {
+    cursor: pointer;
+}
+
+.delivery-block .form-check-label .label-ico {
+    padding: 15px;
+}
+
+.delivery-block .form-check-label .label-text .delivery-name {}
+
+.delivery-block .form-check-label .label-text .delivery-time {}
+
+.delivery-block .form-check-label .label-text .delivery-price {}
+
+.delivery-block .form-check-input {
+    visibility: hidden;
+}
+
+.delivery-block .form-check-label.active {
+    border: 2px solid #66C3D0;
+}
+
+
+/* total block */
+
+.main-cart .total-cart-block {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
