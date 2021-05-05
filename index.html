@@ -136,7 +136,7 @@
                             <h3 class="cart-subtitle">Выберите способ получения</h3>
 
                             <div class="row delivery-block">
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-lg-4 mb-4">
                                     <label class="form-check-label" for="standart-delivery">
                                         <input type="radio" class="form-check-input" id="standart-delivery" name="delivery" value="standart-delivery" checked>
                                         <div class="label-ico">
@@ -151,7 +151,7 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-lg-4 mb-4">
                                     <label class="form-check-label" for="express-delivery">
                                         <input type="radio" class="form-check-input" id="express-delivery" name="delivery" value="express-delivery">
                                         <div class="label-ico">
@@ -166,7 +166,7 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-lg-4 mb-4">
                                     <label class="form-check-label" for="pickup-delivery">
                                         <input type="radio" class="form-check-input" id="pickup-delivery" name="delivery" value="pickup-delivery">
                                         <div class="label-ico">
@@ -177,7 +177,7 @@
                                             <div>
                                                 <div class="delivery-time">Срок: <span>c 23 апреля</span></div> 
                                                 <div class="delivery-price">Цена: <span>бесплатно</span></div>
-                                            </div>						
+                                            </div>
                                         </div>
                                     </label>
                                 </div>
@@ -207,7 +207,7 @@
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <label for="date">Дата <span>(обязательно)</span></label>
-                                                <select class="custom-select" id="date">
+                                                <select class="custom-select form-control" id="date">
                                                     <option selected value="1">3 марта (среда)</option>
                                                     <option value="2">3 марта (среда)</option>
                                                     <option value="3">3 марта (среда)</option>
@@ -217,7 +217,7 @@
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <label for="time">Время <span>(обязательно)</span></label>
-                                                <select class="custom-select" id="time">
+                                                <select class="custom-select form-control" id="time">
                                                     <option selected value="1">с 16:00 до 22:00</option>
                                                     <option value="2">с 16:00 до 22:00</option>
                                                     <option value="3">с 16:00 до 22:00</option>
@@ -239,51 +239,32 @@
                             <h3 class="cart-subtitle">Выберите способ оплаты</h3>
 
                             <div class="row payment-block">
-                                <div class="col-4 mb-4">
-                                    <label class="form-check-label" for="standart-delivery">
-                                        <input type="radio" class="form-check-input" id="standart-delivery" name="delivery" value="standart-delivery" checked>
+                                <div class="col-6 col-lg-4 mb-4">
+                                    <label class="form-check-label" for="payment-1">
+                                        <input type="radio" class="form-check-input" id="payment-1" name="payment" value="payment-1" checked>
                                         <div class="label-ico">
-                                            <img src="/img/box_1.svg" alt="Стандартная доставка">
+                                            <img src="/img/credit_card.svg" alt="payment-1">
                                         </div>
                                         <div class="label-text">
-                                            <div class="delivery-name">Стандартная доставка</div>
-                                            <div>
-                                                <div class="delivery-time">Срок: <span>c 23 апреля</span></div> 
-                                                <div class="delivery-price">Цена: <span>бесплатно</span></div>
-                                            </div>						
+                                            <div class="payment-name">Картой онлайн</div>
+                                            <div class="payment-text">Оплата по карте Visa, MasterCard, МИР</div>						
                                         </div>
                                     </label>
                                 </div>
-                                <div class="col-4 mb-4">
-                                    <label class="form-check-label" for="express-delivery">
-                                        <input type="radio" class="form-check-input" id="express-delivery" name="delivery" value="express-delivery">
+                                <div class="col-6 col-lg-4 mb-4">
+                                    <label class="form-check-label" for="payment-2">
+                                        <input type="radio" class="form-check-input" id="payment-2" name="payment" value="payment-2">
                                         <div class="label-ico">
-                                            <img src="/img/delivery_1.svg" alt="Срочная доставка">
+                                            <img src="/img/wallet.svg" alt="payment-2">
                                         </div>
                                         <div class="label-text">
-                                            <div class="delivery-name">Срочная доставка</div>
-                                            <div>
-                                                <div class="delivery-time">Срок: <span>c 23 апреля</span></div> 
-                                                <div class="delivery-price">Цена: <span>бесплатно</span></div>
-                                            </div>						
+                                            <div class="payment-name">При получении</div>
+                                            <div class="payment-text">Картой или наличными курьеру или в магазине</div>						
                                         </div>
                                     </label>
                                 </div>
-                                <div class="col-4 mb-4">
-                                    <label class="form-check-label" for="pickup-delivery">
-                                        <input type="radio" class="form-check-input" id="pickup-delivery" name="delivery" value="pickup-delivery">
-                                        <div class="label-ico">
-                                            <img src="/img/shop_1.svg" alt="Заберу самостоятельно">
-                                        </div>
-                                        <div class="label-text">
-                                            <div class="delivery-name">Заберу самостоятельно</div>
-                                            <div>
-                                                <div class="delivery-time">Срок: <span>c 23 апреля</span></div> 
-                                                <div class="delivery-price">Цена: <span>бесплатно</span></div>
-                                            </div>						
-                                        </div>
-                                    </label>
-                                </div>
+
+
                             </div>
                         </div>
                     </div>
