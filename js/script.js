@@ -20,4 +20,22 @@ $(document).ready(function() {
         }
     });
 
+
+
+
+    $(document).on('click', '.product-quantity-block .quantity-minus', function() {
+        var $btn = $(this);
+        var val = parseFloat($btn.parent().find('.quantity').val());
+        if (val > 1) {
+            $btn.parent().find('.quantity').val((val - 1));
+        }
+        return false;
+    });
+    $(document).on('click', '.product-quantity-block .quantity-plus', function() {
+        var $btn = $(this);
+        var val = parseFloat($btn.parent().find('.quantity').val());
+        $btn.parent().find('.quantity').val((val + 1));
+        return false;
+    });
+
 }); //document ready end

@@ -39,7 +39,7 @@
                                             <img class="img-fluid" src="/img/product_1.jpg" alt="product name">
                                         </a>
                                     </div>
-                                    <div class="col-6 col-lg-4 d-flex flex-column justify-content-between pl-0">
+                                    <div class="col-7 col-lg-4 d-flex flex-column justify-content-between pl-0">
                                         <div class="h-100">
                                             <div class="product-name">L.O.L. Surprise 566960 Куколка Remix Hairflip</div>
                                             <div class="product-articul">Арт. 566960</div>
@@ -49,7 +49,7 @@
                                     <div class="col-5 col-lg-3 text-center">
                                         <div class="product-quantity-block">
                                             <button class="quantity-minus"></button>
-                                            <input class="quantity" readonly autocomplete="off" value="2 шт.">
+                                            <input class="quantity" readonly autocomplete="off" value="1">
                                             <button class="quantity-plus"></button>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@
                                             <img class="img-fluid" src="/img/product_2.jpg" alt="product name">
                                         </a>
                                     </div>
-                                    <div class="col-6 col-lg-4 d-flex flex-column justify-content-between pl-0">
+                                    <div class="col-7 col-lg-4 d-flex flex-column justify-content-between pl-0">
                                         <div class="h-100">
                                             <div class="product-name">L.O.L. Surprise 566960 Куколка Remix Hairflip</div>
                                             <div class="product-articul">Арт. 566960</div>
@@ -80,7 +80,7 @@
                                     <div class="col-5 col-lg-3 text-center">
                                         <div class="product-quantity-block">
                                             <button class="quantity-minus"></button>
-                                            <input class="quantity" readonly autocomplete="off" value="2 шт.">
+                                            <input class="quantity" readonly autocomplete="off" value="1">
                                             <button class="quantity-plus"></button>
                                         </div>
                                     </div>
@@ -106,27 +106,130 @@
                                 <div class="tab-pane fade show active" id="pills-individual">
                                     <div class="cart-form">
                                         <form action="">
-                                            <div class="form-group">
-                                                <label for="first-name">Имя <span>(обязательно)</span></label>
-                                                <input type="text" class="form-control" id="first-name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="last-name">Фамилия <span>(обязательно)</span></label>
-                                                <input type="text" class="form-control" id="last-name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="email">E-mail <span>(обязательно)</label>
-                                                <input type="email" class="form-control" id="email">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="phone">Телефон <span>(обязательно)</span></label>
-                                                <input type="text" class="form-control" id="phone">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-10">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="first-name">Имя <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="first-name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="last-name">Фамилия <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="last-name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-8">
+                                                            <div class="form-group">
+                                                                <label for="email">E-mail <span>(обязательно)</label>
+                                                                <input type="email" class="form-control" id="email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-8">
+                                                            <div class="form-group">
+                                                                <label for="phone">Телефон <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="phone">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </form>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="pills-entity">
-                                    2
+                                    <div class="cart-form">
+                                        <form action="">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-10">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="first-name">Имя <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="first-name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="last-name">Фамилия <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="last-name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="company">Название компании <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="company">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="jur-adress">Юридический адрес <span>(обязательно)</span></label>
+                                                                <textarea class="form-control" id="jur-adress" rows="3"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-8">
+                                                            <div class="form-group">
+                                                                <label for="email">E-mail <span>(обязательно)</label>
+                                                                <input type="email" class="form-control" id="email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-8">
+                                                            <div class="form-group">
+                                                                <label for="phone">Телефон <span>(обязательно)</span></label>
+                                                                <input type="text" class="form-control" id="phone">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-12 mt-5">
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="jur-1">КПП <span>(обязательно)</span></label>
+                                                                        <input type="text" class="form-control" id="jur-1">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="jur-2">ИНН <span>(обязательно)</span></label>
+                                                                        <input type="text" class="form-control" id="jur-2">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="jur-3">Наименование банка <span>(обязательно)</span></label>
+                                                                        <input type="text" class="form-control" id="jur-3">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="jur-4">БИК <span>(обязательно)</span></label>
+                                                                        <input type="text" class="form-control" id="jur-4">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="jur-5">Корреспондентский счет <span>(обязательно)</span></label>
+                                                                        <input type="text" class="form-control" id="jur-5">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="jur-6">Расчетный счет <span>(обязательно)</span></label>
+                                                                        <input type="text" class="form-control" id="jur-6">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -136,11 +239,11 @@
                             <h3 class="cart-subtitle">Выберите способ получения</h3>
 
                             <div class="row delivery-block">
-                                <div class="col-6 col-lg-4 mb-4">
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
                                     <label class="form-check-label" for="standart-delivery">
                                         <input type="radio" class="form-check-input" id="standart-delivery" name="delivery" value="standart-delivery" checked>
                                         <div class="label-ico">
-                                            <img src="/img/box_1.svg" alt="Стандартная доставка">
+                                            <img class="img-fluid" src="/img/box_1.svg" alt="Стандартная доставка">
                                         </div>
                                         <div class="label-text">
                                             <div class="delivery-name">Стандартная доставка</div>
@@ -151,11 +254,11 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="col-6 col-lg-4 mb-4">
+                                <div class="col-6 col-lg-4  mb-2 mb-sm-4">
                                     <label class="form-check-label" for="express-delivery">
                                         <input type="radio" class="form-check-input" id="express-delivery" name="delivery" value="express-delivery">
                                         <div class="label-ico">
-                                            <img src="/img/delivery_1.svg" alt="Срочная доставка">
+                                            <img class="img-fluid" src="/img/delivery_1.svg" alt="Срочная доставка">
                                         </div>
                                         <div class="label-text">
                                             <div class="delivery-name">Срочная доставка</div>
@@ -170,7 +273,7 @@
                                     <label class="form-check-label" for="pickup-delivery">
                                         <input type="radio" class="form-check-input" id="pickup-delivery" name="delivery" value="pickup-delivery">
                                         <div class="label-ico">
-                                            <img src="/img/shop_1.svg" alt="Заберу самостоятельно">
+                                            <img class="img-fluid" src="/img/shop_1.svg" alt="Заберу самостоятельно">
                                         </div>
                                         <div class="label-text">
                                             <div class="delivery-name">Заберу самостоятельно</div>
@@ -186,51 +289,56 @@
                             <div class="cart-form">
                                 <form action="">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label for="street">Улица <span>(обязательно)</span></label>
-                                                <input type="text" class="form-control" id="street" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="home">Дом <span>(обязательно)</span></label>
-                                                <input type="text" class="form-control" id="home" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="room">Квартира/Офис <span>(обязательно)</span></label>
-                                                <input type="text" class="form-control" id="room" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="date">Дата <span>(обязательно)</span></label>
-                                                <select class="custom-select form-control" id="date">
-                                                    <option selected value="1">3 марта (среда)</option>
-                                                    <option value="2">3 марта (среда)</option>
-                                                    <option value="3">3 марта (среда)</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="time">Время <span>(обязательно)</span></label>
-                                                <select class="custom-select form-control" id="time">
-                                                    <option selected value="1">с 16:00 до 22:00</option>
-                                                    <option value="2">с 16:00 до 22:00</option>
-                                                    <option value="3">с 16:00 до 22:00</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label for="message">Комментарий <span>(любая дополнительная информация от вас)</span></label>
-                                                <textarea class="form-control" id="message" rows="3"></textarea>
+                                        <div class="col-12 col-sm-10">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="street">Улица <span>(обязательно)</span></label>
+                                                        <input type="text" class="form-control" id="street" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="home">Дом <span>(обязательно)</span></label>
+                                                        <input type="text" class="form-control" id="home" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="room">Квартира/Офис <span>(обязательно)</span></label>
+                                                        <input type="text" class="form-control" id="room" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="date">Дата <span>(обязательно)</span></label>
+                                                        <select class="custom-select form-control" id="date">
+                                                            <option selected value="1">3 марта (среда)</option>
+                                                            <option value="2">3 марта (среда)</option>
+                                                            <option value="3">3 марта (среда)</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="time">Время <span>(обязательно)</span></label>
+                                                        <select class="custom-select form-control" id="time">
+                                                            <option selected value="1">с 16:00 до 22:00</option>
+                                                            <option value="2">с 16:00 до 22:00</option>
+                                                            <option value="3">с 16:00 до 22:00</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="message">Комментарий <span>(любая дополнительная информация от вас)</span></label>
+                                                        <textarea class="form-control" id="message" rows="3"></textarea>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+
                                 </form>
                             </div>
                         </div>
@@ -239,11 +347,11 @@
                             <h3 class="cart-subtitle">Выберите способ оплаты</h3>
 
                             <div class="row payment-block">
-                                <div class="col-6 col-lg-4 mb-4">
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
                                     <label class="form-check-label" for="payment-1">
                                         <input type="radio" class="form-check-input" id="payment-1" name="payment" value="payment-1" checked>
                                         <div class="label-ico">
-                                            <img src="/img/credit_card.svg" alt="payment-1">
+                                            <img class="img-fluid" src="/img/credit_card.svg" alt="payment-1">
                                         </div>
                                         <div class="label-text">
                                             <div class="payment-name">Картой онлайн</div>
@@ -251,15 +359,63 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="col-6 col-lg-4 mb-4">
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
                                     <label class="form-check-label" for="payment-2">
                                         <input type="radio" class="form-check-input" id="payment-2" name="payment" value="payment-2">
                                         <div class="label-ico">
-                                            <img src="/img/wallet.svg" alt="payment-2">
+                                            <img class="img-fluid" src="/img/wallet.svg" alt="payment-2">
                                         </div>
                                         <div class="label-text">
                                             <div class="payment-name">При получении</div>
                                             <div class="payment-text">Картой или наличными курьеру или в магазине</div>						
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
+                                    <label class="form-check-label" for="payment-3">
+                                        <input type="radio" class="form-check-input" id="payment-3" name="payment" value="payment-3">
+                                        <div class="label-ico">
+                                            <img class="img-fluid" src="/img/terminal.svg" alt="payment-3">
+                                        </div>
+                                        <div class="label-text">
+                                            <div class="payment-name">Через терминал</div>
+                                            <div class="payment-text">В любом удобном терминале рядом с домом</div>						
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
+                                    <label class="form-check-label" for="payment-4">
+                                        <input type="radio" class="form-check-input" id="payment-4" name="payment" value="payment-4">
+                                        <div class="label-ico">
+                                            <img class="img-fluid" src="/img/ya_dengi.svg" alt="payment-4">
+                                        </div>
+                                        <div class="label-text">
+                                            <div class="payment-name">Яндекс.Деньги</div>
+                                            <div class="payment-text">На следующем шаге вы сможете оплатить через свой аккаунт</div>						
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
+                                    <label class="form-check-label" for="payment-5">
+                                        <input type="radio" class="form-check-input" id="payment-5" name="payment" value="payment-5">
+                                        <div class="label-ico">
+                                            <img class="img-fluid" src="/img/webmoney.svg" alt="payment-5">
+                                        </div>
+                                        <div class="label-text">
+                                            <div class="payment-name">Webmoney</div>
+                                            <div class="payment-text">На следующем шаге вы сможете оплатить через свой аккаунт</div>						
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-lg-4 mb-2 mb-sm-4">
+                                    <label class="form-check-label" for="payment-6">
+                                        <input type="radio" class="form-check-input" id="payment-6" name="payment" value="payment-6">
+                                        <div class="label-ico">
+                                            <img class="img-fluid" src="/img/receipt_1.svg" alt="payment-6">
+                                        </div>
+                                        <div class="label-text">
+                                            <div class="payment-name">По квитанции</div>
+                                            <div class="payment-text">Мы сформируем квитанцию для оплаты в банке</div>						
                                         </div>
                                     </label>
                                 </div>
@@ -270,16 +426,36 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <div class="total-cart-block">
+                    <div class="total-cart-block cart-form">
 
                         <div class="collapse-block">
-                            <button class="btn" data-toggle="collapse" data-target="#collapse-block-1">У меня есть промокод</button>
-                            <div class="collapse" id="collapse-block-1">промокод</div>
+                            <button class="btn btn-collapse" data-toggle="collapse" data-target="#collapse-block-1">Начислить мили «Аэрофлот Бонус»</button>
+                            <div class="collapse" id="collapse-block-1">
+                                <div class="form-group collapse-padding">
+                                    <label for="input-1">У вас 500 бонусов <span>(вы можете списать до 200 бонусов)</span></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="input-1" placeholder="" value="200">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-send" type="button">Списать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="collapse-block">
-                            <button class="btn" data-toggle="collapse" data-target="#collapse-block-2">У меня есть подарочный сертификат</button>
-                            <div class="collapse" id="collapse-block-2">сертификат</div>
+                            <button class="btn btn-collapse" data-toggle="collapse" data-target="#collapse-block-2">У меня есть подарочный сертификат</button>
+                            <div class="collapse" id="collapse-block-2">
+                                <div class="form-group collapse-padding">
+                                    <label for="input-2">123 <span>(456)</span></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="input-2" placeholder="" value="">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-send" type="button">Подтвердить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="total-price-block">
