@@ -167,6 +167,12 @@
                                             </div>
                                         </form>
                                     </div>
+                                    <div class="collapse-block cart-form">
+                                        <button class="btn btn-collapse collapsed" data-toggle="collapse" data-target="#collapse-block-0">Накопить/списать баллы</button>
+                                        <div class="collapse" id="collapse-block-0">
+                                            <button class="btn btn-loyalty">Войти в программу лояльности</button>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="pills-entity">
                                     <div class="cart-form">
@@ -258,6 +264,7 @@
                                             </div>
                                         </form>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -265,7 +272,7 @@
                         <div class="cart-delivery-block">
 
                             <h3 class="cart-subtitle">Выберите способ получения</h3>
-
+                            <div class="city-select">Ваш город: <a href="#">Москва</a></div>
                             <div class="row delivery-block">
                                 <div class="col-6 col-lg-4 mb-2 mb-sm-4">
                                     <label class="form-check-label" for="standart-delivery">
@@ -456,25 +463,34 @@
                 <div class="col-12 col-lg-4">
                     <div class="total-cart-block cart-form">
 
-                        <div class="form-group collapse-padding">
+                        <div class="form-group collapse-padding d-none d-lg-block">
                             <label for="input-1">Промокод <span>(если есть)</span></label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="input-1" placeholder="" value="">
                                 <div class="input-group-append">
-                                    <button class="btn btn-send" type="button">Отправить</button>
+                                    <button class="btn btn-send" type="button">Применить</button>
                                 </div>
                             </div>
                         </div>
 
                         <div class="collapse-block">
-                            <button class="btn btn-collapse" data-toggle="collapse" data-target="#collapse-block-1">Начислить мили «Аэрофлот Бонус»</button>
-                            <div class="collapse" id="collapse-block-1">
+                            <button class="btn btn-collapse collapsed" data-toggle="collapse" data-target="#collapse-block-0">Накопить/списать баллы</button>
+                            <div class="collapse cart-form" id="collapse-block-0">
+                                <div class="collapse-padding">
+                                    <button class="btn btn-loyalty">Войти в программу лояльности</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapse-block">
+                            <button class="btn btn-collapse collapsed" data-toggle="collapse" data-target="#collapse-block-2">У меня есть подарочный сертификат</button>
+                            <div class="collapse" id="collapse-block-2">
                                 <div class="form-group collapse-padding">
-                                    <label for="input-1">У вас 500 бонусов <span>(вы можете списать до 200 бонусов)</span></label>
+                                    <label for="input-2">Введите скретч-код <span></span></label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="input-1" placeholder="" value="200">
+                                        <input type="text" class="form-control" id="input-2" placeholder="" value="">
                                         <div class="input-group-append">
-                                            <button class="btn btn-send" type="button">Списать</button>
+                                            <button class="btn btn-send" type="button">Применить</button>
                                         </div>
                                     </div>
                                 </div>
@@ -482,14 +498,14 @@
                         </div>
 
                         <div class="collapse-block">
-                            <button class="btn btn-collapse" data-toggle="collapse" data-target="#collapse-block-2">У меня есть подарочный сертификат</button>
-                            <div class="collapse" id="collapse-block-2">
+                            <button class="btn btn-collapse collapsed" data-toggle="collapse" data-target="#collapse-block-1">Начислить мили «Аэрофлот Бонус»</button>
+                            <div class="collapse" id="collapse-block-1">
                                 <div class="form-group collapse-padding">
-                                    <label for="input-2">123 <span>(456)</span></label>
+                                    <label for="input-1">У вас 500 бонусов <span>(вы можете списать до 200 бонусов)</span></label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="input-2" placeholder="" value="">
+                                        <input type="text" class="form-control" id="input-1" placeholder="" value="200">
                                         <div class="input-group-append">
-                                            <button class="btn btn-send" type="button">Подтвердить</button>
+                                            <button class="btn btn-send" type="button">Списать</button>
                                         </div>
                                     </div>
                                 </div>

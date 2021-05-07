@@ -266,6 +266,17 @@ light-orange #fcae41
     text-decoration: underline;
 }
 
+.btn-loyalty {
+    color: #fff;
+    border-color: #66C3D0;
+    background: #66C3D0;
+    border-radius: 0;
+}
+
+.btn-loyalty:hover {
+    color: #fff;
+}
+
 @media (max-width: 575px) {
     .cart-form .form-group label {
         font-size: .75rem;
@@ -277,6 +288,14 @@ light-orange #fcae41
 
 .cart-delivery-block {
     margin-top: 60px;
+}
+
+.city-select {
+    margin-bottom: 20px;
+}
+
+.city-select a {
+    color: #66C3D0;
 }
 
 .delivery-block .form-check-label {
@@ -408,18 +427,21 @@ light-orange #fcae41
     padding: 15px 30px;
 }
 
-.main-cart .total-cart-block .collapse-block .btn-collapse {
+.main-cart .collapse-block .btn-collapse {
     display: inline-block;
-    /* color: #939393;
-    border-bottom: .5px dashed #939393;  */
-    color: #66C3D0;
-    border-bottom: .5px dashed #66C3D0;
+    color: #939393;
+    border-bottom: .5px dashed #939393;
     font-size: 1rem;
     padding: 0;
     margin-bottom: 10px;
 }
 
-.main-cart .total-cart-block .collapse-block .collapse-padding {
+.main-cart .collapse-block .btn-collapse.collapsed {
+    color: #66C3D0;
+    border-bottom: .5px dashed #66C3D0;
+}
+
+.main-cart .collapse-block .collapse-padding {
     padding: 20px 0;
 }
 
